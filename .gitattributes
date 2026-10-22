@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows / Linux 协作时整个文件被标记为修改
+* text=auto eol=lf
+
+# 二进制文件：不要做换行转换或文本 diff
+*.xlsx   binary
+*.xls    binary
+*.png    binary
+*.jpg    binary
+*.docx   binary
+*.pdf    binary
+
+# Python 文件按文本处理
+*.py     text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.txt    text eol=lf

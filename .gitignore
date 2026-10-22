@@ -1,0 +1,34 @@
+# ===== 本地环境 / Local environment =====
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ===== 生成结果 / Generated output =====
+results/
+*.log
+
+# ===== 备份与临时文件 / Backups and temp files =====
+*.bak
+*.orig
+*.tmp
+
+# ===== IDE 与操作系统 / IDE and OS files =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 测试与构建缓存 / Test and build caches =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# ===== 智能体工作区记录（不入库） =====
+.workbuddy/
